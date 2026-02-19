@@ -3,7 +3,7 @@ import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10
 
 // Firebase config (SAMO URL – demo mode)
 const firebaseConfig = {
-  databaseURL: "https://smart-room-monitoring-d71cd-default-rtdb.europe-west1.firebasedatabase.app/room.json"
+  databaseURL: "https://smart-room-monitoring-d71cd-default-rtdb.europe-west1.firebasedatabase.app"
 };
 
 // Init Firebase
