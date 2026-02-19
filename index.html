@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Room Monitor</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌙 Smart Room Monitoring</h1>
+
+    <div class="cards">
+      <div class="card">
+        <h2>🌡 Temperature</h2>
+        <p id="temp">-- °C</p>
+      </div>
+
+      <div class="card">
+        <h2>💧 Humidity</h2>
+        <p id="hum">-- %</p>
+      </div>
+
+      <div class="card">
+        <h2>🚶 Motion</h2>
+        <p id="motion" class="status">Unknown</p>
+      </div>
+
+      <div class="card">
+        <h2>🌑 Light</h2>
+        <p id="light" class="status">Unknown</p>
+      </div>
+
+      <div class="card led">
+        <h2>💡 LED</h2>
+        <div id="ledIndicator" class="led-off"></div>
+      </div>
+    </div>
+
+    <footer>
+      Smart IoT Project · ESP32 + Firebase
+    </footer>
+  </div>
+</body>
+</html>
